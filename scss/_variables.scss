@@ -2,3 +2,8 @@ $estilos: (
   verde: green,
   amarillo: yellow,
 );
+
+@mixin tamaños($width, $heigth) {
+  width: $width;
+  height: $heigth;
+}
