@@ -89,7 +89,8 @@ h2 {
 
 .formulario {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0 30px 0;
+  height: 100vh;
 }
 
 body {
@@ -112,7 +113,7 @@ body {
   }
   .vinos-y-bodegas .card {
     width: 400px;
-    height: 550px;
+    height: 570px;
   }
   .vinos-y-bodegas .card p {
     font-size: 1rem;
