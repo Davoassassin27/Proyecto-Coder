@@ -1,8 +1,11 @@
-footer {
-  grid-area: footer;
-}
 .footer {
-  display: flex;
-  text-align: center;
-  align-items: flex-end;
+  height: 60px;
+  text-align: map-get($estilos, centro);
+  background-color: map-get($estilos, gris);
+
+  i {
+    margin: 20px 10px 0 10px;
+    font-size: 30px;
+    color: map-get($estilos, blanco);
+  }
 }

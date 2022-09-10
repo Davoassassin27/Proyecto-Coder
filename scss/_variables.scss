@@ -1,6 +1,12 @@
 $estilos: (
-  verde: green,
-  amarillo: yellow,
+  centro:center,
+  gris:#5d6d7e,
+  blanco:white,
+  violetaOscuro:#76448a,
+  violetaClaro:#a569bd,
+  tiza:antiquewhite,
+  grisClaro:#eaeded,
+  sin:none,
 );
 
 @mixin tamaños($width, $heigth) {

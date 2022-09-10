@@ -1,35 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
-    <link rel="shortcut icon" href="../images/backlogo.png" />
-    <link rel="stylesheet" href="../css/style.css">
-  </head>
-  <body class="contacto"> 
-    <header class="navbackground">
-      <nav class="navbar">
-        <ul class="navbar__pages">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./programas.html">Programación</a></li>
-          <li><a href="./vinos_y_bodegas.html">Vinos y Bodegas</a></li>
-          <li>
-            <a href="./programas_emitidos.html">Programas Emitidos</a>
-          </li>
-          <li><a href="./entrevistas.html">Entrevistas</a></li>
-          <li><a href="./nosotros.html">Nosotros</a></li>
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <form action="">
-        <input type="text" placeholder="ASUNTO" /><br />
-        <input type="email" name="email" id="mail" placeholder="email" /><br />
-        <input type="number" placeholder="Edad"><br>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programas</title>
+  <link rel="shortcut icon" href="../images/backlogo.png" />
+  <!-- SEO -->
+  <meta name="description" content="Pagina de contacto de la radio cultural" />
+  <meta name="keywords" content="contacto, contactar, problema, radio, cultura, ayuda" />
+
+  <!-- Animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&display=swap"
+    rel="stylesheet" />
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>RADIO CULTURA</title>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="../images/backlogo.png" width="50rem" height="50rem" alt="logo secundario de la empresa"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programas.html">Programas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="vinos_y_bodegas.html">Vinos y bodegas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programas_emitidos.html">Programas emitidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contacto">
+
+    <!-- Content -->
+    <form class="formulario">
+      <input type="text" placeholder="ASUNTO" /><br />
+      <input type="email" name="email" id="mail" placeholder="email" /><br />
+      <input type="number" placeholder="Edad"><br>
       <p>¿Con que programa estuvo teniendo problemas?</p>
       <select name="programa" id="programa">
         <option value="pop">Pop</option>
@@ -45,36 +85,36 @@
         <option value="otro problema">otro problema</option>
       </select>
 
-        <p>Comentanos que sucede!</p>
-        <label for="escriba">
-          <textarea
-            name="cuerpo"
-            id="cuerpo"
-            cols="30"
-            rows="10"
-            placeholder="Escriba aqui..."
-          ></textarea>
-        </label>
-      </form> 
-       <input type="submit" value="Enviar" />
-       <input type="reset" value="Limpiar">
-      </form>
+      <p>Comentanos que sucede!</p>
+      <label for="escriba">
+        <textarea name="cuerpo" id="cuerpo" cols="50" rows="10" placeholder="Escriba aqui..."></textarea>
+      </label>
+      <br>
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpiar">
+
       <p>¿De todos modos dsifruta de nuestra radio?</p>
-      <div>Si 
+      <div>Si
         <input type="radio" name="Si" value="Si">
       </div>
-      <div>No 
+      <div>No
         <input type="radio" name="No" value="No">
       </div>
       <form>
-      
-    </section>
-  </body>
+
+  </main>
+
+  <!-- Footer -->
   <footer class="footer">
-    <h4>Tweeter</h4>
-    <h4>Instagram</h4>
-    <h4>Facebook</h4>
-    <h4>Radio en Vivo</h4>
-    <h4>Contacto</h4>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
   </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

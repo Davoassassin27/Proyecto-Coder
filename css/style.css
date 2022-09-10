@@ -4,54 +4,111 @@
   box-sizing: border-box;
 }
 
-footer {
-  grid-area: footer;
+.principal {
+  text-align: center;
+}
+.principal h1 {
+  color: #76448a;
+  margin-top: 50px;
+}
+.principal h2 {
+  color: #76448a;
+}
+
+.texto_home {
+  text-align: center;
+  margin: 50px 20px;
+}
+.texto_home ul, .texto_home ul #programas {
+  list-style: none;
+}
+.texto_home ul #programas {
+  color: #76448a;
+}
+
+a {
+  text-decoration: none;
+  color: #76448a;
 }
 
 .footer {
-  display: flex;
+  height: 60px;
   text-align: center;
-  align-items: flex-end;
+  background-color: #5d6d7e;
+}
+.footer i {
+  margin: 20px 10px 0 10px;
+  font-size: 30px;
+  color: white;
 }
 
-.navbar__pages {
-  visibility: visible;
-  height: auto;
+.programas {
+  height: 100vh;
   position: relative;
 }
-
-header {
-  background: linear-gradient(to right, #a23af8, #f088fa, rgb(0, 0, 0));
-  padding: 0.5rem 0;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  position: sticky;
-  top: 0;
-  z-index: 1;
+.programas .table {
+  background-color: #a569bd;
+  color: antiquewhite;
   text-align: center;
 }
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.programas td {
+  height: 70px;
+}
+.programas .img_programas {
+  text-align: center;
+}
+.programas .img_programas img {
+  border-radius: 100%;
+  margin: 40px;
+  width: 300px;
+  height: 300px;
 }
 
-@media (min-width: 768px) {
-  header {
-    display: flex;
-    align-items: center;
-  }
-  main {
-    display: flex;
-    align-items: center;
-  }
-  .navigation-button {
-    display: block;
-  }
+h2 {
+  text-align: center;
+  margin: 50px;
+  color: #76448a;
 }
-header {
-  background-color: yellow;
+
+.container {
+  height: 100vh;
+  position: relative;
+}
+.container .videos iframe {
+  width: 300px;
+  height: 200px;
+}
+
+.vinos-y-bodegas {
+  margin: 50px;
+}
+
+.formulario {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contacto {
+  height: 100vh;
+}
+
+body {
+  background-color: #eaeded;
+}
+
+.navbar-brand {
+  color: #76448a;
+}
+
+/* MEDIA QUERYS */
+@media screen and (min-width: 576px) {
+  .container .videos iframe {
+    width: 500px;
+    height: 300px;
+  }
+  .vinos-y-bodegas {
+    height: 100vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

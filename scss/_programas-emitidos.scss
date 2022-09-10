@@ -1,0 +1,16 @@
+h2 {
+  text-align: map-get($estilos, centro);
+  margin: 50px;
+  color: map-get($estilos, violetaOscuro);
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+
+  .videos {
+    iframe {
+      @include tamaños(300px, 200px);
+    }
+  }
+}
