@@ -1,7 +1,4 @@
 .programas {
-  height: 100vh;
-  position: relative;
-
   .table {
     background-color: map-get($estilos, violetaClaro);
     color: map-get($estilos, tiza);
@@ -19,7 +16,6 @@
       border-radius: 100%;
       margin: 40px;
       @include tamaños(300px, 300px);
-
     }
   }
 }

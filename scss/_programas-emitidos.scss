@@ -5,9 +5,6 @@ h2 {
 }
 
 .container {
-  height: 100vh;
-  position: relative;
-
   .videos {
     iframe {
       @include tamaños(300px, 200px);

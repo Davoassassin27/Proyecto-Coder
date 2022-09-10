@@ -42,10 +42,6 @@ a {
   color: white;
 }
 
-.programas {
-  height: 100vh;
-  position: relative;
-}
 .programas .table {
   background-color: #a569bd;
   color: antiquewhite;
@@ -70,10 +66,6 @@ h2 {
   color: #76448a;
 }
 
-.container {
-  height: 100vh;
-  position: relative;
-}
 .container .videos iframe {
   width: 300px;
   height: 200px;
@@ -82,14 +74,22 @@ h2 {
 .vinos-y-bodegas {
   margin: 50px;
 }
+.vinos-y-bodegas .card-img-top {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+.vinos-y-bodegas .card {
+  width: 250px;
+  height: 300px;
+}
+.vinos-y-bodegas .card p {
+  font-size: 0.5rem;
+}
 
 .formulario {
   text-align: center;
   margin-top: 30px;
-}
-
-.contacto {
-  height: 100vh;
 }
 
 body {
@@ -106,8 +106,16 @@ body {
     width: 500px;
     height: 300px;
   }
-  .vinos-y-bodegas {
-    height: 100vh;
+  .vinos-y-bodegas .card-img-top {
+    width: 350px;
+    height: 350px;
+  }
+  .vinos-y-bodegas .card {
+    width: 400px;
+    height: 550px;
+  }
+  .vinos-y-bodegas .card p {
+    font-size: 1rem;
   }
 }
 

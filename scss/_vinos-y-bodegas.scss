@@ -1,4 +1,14 @@
 .vinos-y-bodegas {
   margin: 50px;
+  .card-img-top {
+    @include tamaños(200px, 200px);
+    align-items: center;
+  }
+  .card {
+    @include tamaños(250px, 300px);
 
+    p {
+      font-size: 0.5rem;
+    }
+  }
 }
