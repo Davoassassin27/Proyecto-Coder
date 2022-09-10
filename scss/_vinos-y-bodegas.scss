@@ -6,6 +6,7 @@
   }
   .card {
     @include tamaños(250px, 300px);
+    margin: 0 10px 20px;
 
     p {
       font-size: 0.5rem;

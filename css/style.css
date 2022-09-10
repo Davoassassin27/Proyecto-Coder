@@ -82,6 +82,7 @@ h2 {
 .vinos-y-bodegas .card {
   width: 250px;
   height: 300px;
+  margin: 0 10px 20px;
 }
 .vinos-y-bodegas .card p {
   font-size: 0.5rem;
