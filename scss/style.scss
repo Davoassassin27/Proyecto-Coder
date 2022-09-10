@@ -7,8 +7,31 @@
 @import "variables";
 @import "index";
 @import "footer";
-@import "navbar";
+@import "programas";
+@import "programas-emitidos";
+@import "vinos-y-bodegas";
+@import "formulario";
 
-header {
-  background-color: map-get($estilos, amarillo);
+body {
+  background-color: map-get($estilos, grisClaro);
+}
+
+.navbar-brand {
+  color: map-get($estilos, violetaOscuro);
+}
+
+/* MEDIA QUERYS */
+@media screen and (min-width: 576px) {
+  .container {
+    .videos {
+      iframe {
+        @include tamaños (500px, 300px)
+      }
+    }
+  }
+
+  .vinos-y-bodegas {
+    height: 100vh;
+
+  }
 }

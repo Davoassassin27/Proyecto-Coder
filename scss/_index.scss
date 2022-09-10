@@ -1,0 +1,31 @@
+.principal {
+  text-align: map-get($estilos, centro);
+
+  h1 {
+    color: map-get($estilos, violetaOscuro);
+    margin-top: 50px;
+  }
+
+  h2 {
+    color: map-get($estilos, violetaOscuro);
+  }
+}
+
+.texto_home {
+  text-align: map-get($estilos, centro);
+  margin: 50px 20px;
+
+  ul {
+    list-style: map-get($estilos, sin);
+
+    #programas {
+      @extend ul;
+      color: map-get($estilos, violetaOscuro);
+    }
+  }
+}
+
+a {
+  text-decoration: map-get($estilos, sin);
+  color: map-get($estilos, violetaOscuro);
+}
